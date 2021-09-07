@@ -76,7 +76,6 @@ namespace SistemaBackupDesktop.Screens
             {
                 pathSave = txtPathSave.Text;
             }
-
             if (!string.IsNullOrEmpty(pathSave) || !string.IsNullOrWhiteSpace(pathSave))
             {
                 string nameFile = $"bkp{DateTime.Now.ToString("dd-MM-yyyy")}_{DateTime.Now.ToString("HH")}-{DateTime.Now.ToString("mm")}" + ".zip";
